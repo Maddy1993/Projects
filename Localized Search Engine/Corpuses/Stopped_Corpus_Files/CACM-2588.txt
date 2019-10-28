@@ -1,0 +1,15 @@
+rosenbrock
+function
+minimization
+algorithm
+cacm
+october
+1974
+klemes
+klemsa
+ca
+jb
+january
+16
+1978
+11:09

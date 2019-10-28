@@ -1,0 +1,15 @@
+treesort
+3
+algorithm
+245
+cacm
+july
+1965
+abrams
+ca
+jb
+march
+6
+1978
+8:59
+pm

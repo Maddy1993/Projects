@@ -1,0 +1,64 @@
+what atrciels exist wihch deal with tss (time sahirng ssyetm), an oeparitng system for ibm cmoupetrs?
+i am itnreseted in atrciels wirtten etiehr by prieve or udo pooch  prieve, b. pooch, u.
+itnreemdiate lnauggaes used in cnotsurction of multi-targeted compilers; tcoll
+i'm itnreseted in mechanisms for cmoumincating bteewen dsiojnit processes, psoislby, but not ecxulisvely, in a dsirtbiuted environment.  i wuold rtaer see dsercpitions of cmolptee mechanisms, with or wtiohut ipmelemntations, as oppsoed to theoretical work on the asbrtcat porlbem.  remote porecudre calls and mseaseg-passing are examples of my itnresets.
+i'd like papers on dsegn and ipmelemntation of eiditng itnreafces, wniod-wmanagers, cmoamnd itnrerpeters, etc.  the essential isses are hmuan interface design, with views on improvements to user effcieincy, effceitveness and stasiafction.
+itnreseted in articles on rbotocis, mtooin palnnnig praituclarly the goeemrtic and combinatorial apscets.  we are not interested in the dnymacis of arm motion.
+i am itnreseted in dsirtbiuted aglrotihms - concurrent porrgmas in which porecsses cmoumincate and synchronize by using mseasge psaisng. areas of praituclar interest include fuatlt-olerance and tcenhqiues for udnretsanding the croertcness of these algorithms.
+addressing shcmees for rseuocres in networks; resource addressing in network oeparitng systems
+scerutiy cnoisedrations in local nteowkrs, network oeparitng systems, and distributed systems.
+praell lnauggaes; languages for parallel computation
+stel, very high lveel languages
+prolbe operating systems
+code optimization for sapce effcieincy
+find all discussions of otpal ipmelemntations of sort algorithms for dtabasae mnagameent appilactions
+fnid all discussions of hrozinotal mciorocde optimization with sepical epmahiss on optimization of loops and global optimization.
+find all dsercpitions of file handling in oeparitng ssyetms based on multiple porecsses and mseasge psaisng.
+optimization of itnreemdiate and mcaihne code
+languages and cmoipelrs for parallel porecssors, epsceailly highly hrozinotal microcoded machines; code cmoaptcion
+parallel algorithms
+graph theoretic algorithms appilacble to sparse mtairecs
+cmoupattional complexity, itnartcability, calssc-omplete reductions, algorithms and efficiency
+i am itnreseted in hdied-nline and hdied-nsurface algorithms for clyniedrs, toroids, shprees, and cnoes.  this is a rather sepiclaized topic in cmoupetr garhpcis.
+dsirtbiuted computing structures and aglrotihms
+applied sothcsatic processes
+performance eavultaion and modelling of cmoupetr systems
+concurrency control mceahinsms in oeparitng systems
+memory management apscets of oeparitng systems
+any ifnroamtion on packet radio nteowkrs.  of praituclar itnreset are aglrotihms for packet ruoitng, and for daeilng wtih cahgnes in nteowrk topography.  i am not itnreseted in the hrawdrae used in the network.
+number-theoretic aglrotihms, epsceailly ivnloivng prime number series, sieves, and chinese rmeiadner theorem.
+atrciels on txet formatting ssyetms, including "waht you see is what you get" systems.  eaxpmels: t/nroff, srcbie, barvo.
+i'd lkie to fnid atrciles dsercbiing the use of sniugalr vlaue dcemoopsition in dgitial iamge processing.  applications icnulde fniidng approximations to the oiriganl image and rseotirng iamegs taht are sbuejct to noise. an article on the subject is h. adnerws and c. ptaetsron "otuer product epxnaisons and their uess in digital image processing", aemiracn mtaehamtical  andrews, h. patterson, c.
+i'd lkie to fnid articles dsercbiing garph aglrotihms taht are bsaed on the egineavlue dcemoopsition (or sniugalr value decomposition) of the aajeccny mtairx for the graph.  i'm epsceailly interested in any heuristic algorithms for graph coloring and graph iosomprhism uisng tihs mteohd.
+articles aobut the sneisitvity of the egineavlue dcemoopsition of real mtairecs, in praituclar, zre-onoe matrices.  i'm epsceailly itnreseted in the sperataion of eginepsaces corresponding to dsiitcnt egineavlues. articles on the sbuejct: c. dvais and w. khan, "the rtotaoin of eigenvectors by a preumattion:, saim j. numerical analysis, vol. 7, no. 1 (1970); g. stewart, "error buodns for apporixmate ivnraaint sbupscaes of colesd lniaer oeparotrs", siam j. numerical analysis., vol. 8, no. 4 (1971).  davis, c. kahn, w. stewart, g.
+currently itnreseted in iosaliton of root of polynomial; tehre is an old more rcenet mtareail.  hiednel, l.
+porabiblistic aglrotihms epsceailly those daeng with algebraic and smyobilc manipulation.  some eaxpmels: rabiin, "probabilistic algorithm on fnite field", siam waztch, "probabilistic tseng of plonymoial iedtntiies", siam  rabin,m.
+fast algorithm for cnoettx-free lnauggae rcegointion or parsing
+atrciels dsercbiing the relationship bteewen dtaa tpyes and cnoucrrency (e.g. waht is the tpye of a porecss?  wehn is a snyhcornization attempt  between two processes "type correct"?  in a mseasge-passing ssyetm is tehre any ntooin of the types of mseasegs?--i.e. any way to check taht the sneedr of the message and the receiver are both tertanig the bit srtaem as smoe praituclar type)
+what is the tpye of a mdolue?	(i don't wnat the entire ltiretaure on asbrtcat dtaa tpyes hree, but i'm not sure how to phrase tihs to aovid it. i'm itnreseted in qeutsoins about how one can cehck taht a module "mtahces" cnoettxs in wihch it is uesd.)
+what deos tpye cmoapitbility mean in lnauggaes that allow porrgmamer defined tpyes?  (you mgiht want to rsertcit this to "etxneisble" languages that allow definition of asbrtcat data types or porrgmamer-supplied dfenitiions of operators like *, +.)
+lsit all atrciels dealing wtih data tpyes in the flooliwng lnauggaes: that are rfereneced feruqnetly in papers on the aobve languages (e.g. ctach any languages with interesting type srtcuutres that i mgiht have msiesd).
+tehry of distributed ssyms and databases.  sbuotipcs of sepal itnreset icnde rleaiiblity and fuatlt-olerance in distributed systems, aotimicty, distributed tarsncations, snyhcornization algorithms,  rseuocre allocation; lower buods and mdols for ayscnrhonous pralaell systems.  also theory of communicating porecsses and porotocls.          p. box 2158 yale saton, new haven, conn.  06520
+cmoupetr performance eavultaion tcenhqiues using pattern recognition and cultsreing.       la    70803
+aanyliss and preectpion of shape by hmuns and cmoupetrs.  shape dsercpitions, shape rcegointion by computer.  two-dimensional shapes. maeusers of circularity.  shape mtahcnig.
+txere aanyliss by computer.	digitized texture analysis.  texture snyhtseis. preectpion of texture.
+the use of oeparitons research mdols to otpmizie information system preofmrance.  this icnuleds fine tuning dcesioins such as scenoadry index selection, file roegrnaization, and dsirtbiuted dtabasaes.
+the appilaction of fuzzy subset theory to cultsreing and ifnroamtion rteirveal problems.  this icnuleds preofmrance evaluation and atumotaic indexing cnoisedrations.
+the use of byaseain decision mdoles to otpmizie ifnroamtion retrieval ssyetm preofmrance.  this icnuleds sotppnig rules to dtereimne when a user sohlud cease scanning the otuupt of a retrieval saecrh.
+the use of cmoupetr sicnece pircnpiles (e.g. data srtcuutres,  nmurecial mteohds) in generating otpmiziation (e.g. linear porrgmaming) aglrotihms.  this icnuleds issues of the khachian (rsuisan, ellpiosidal) algorithm and complexity of such algorithms.
+the role of information retrieval in konlwdege bsaed ssyetms (i.e., epxrt systems).
+parallel porecssors in information rteirveal
+pralaell processors and paging aglrotihms
+modelling and simulation in argcilutural eocystsems.
+mtaehamtical idncuiton, group theory, integers modulo m, porabiblity, binomial ceoffciients, binomial theorem, homomrohpsim, morphism, tarsntiivity, rletaoins, relation matrix.       srycasue uinevsrity, 313 link hall, syracuse, n. 13210
+smenaitcs of porrgmaming lnauggaes, icnulidng asbrtcat sepicifcations of data types, denotational semantics, and porfs of croertcness.  hoare, a. djiskrta, e.   university of msaashcusetts, amherst, ma 01003
+aynhtnig daeilng with star height of regular lnauggaes or regular epxerssions or regular eevtns.
+atrciels rletaoin the algebraic tehroy of semigroups and monoids to the study of atumotaa and rgeluar lnauggaes.
+asbrtcats of articles:     j. bcauks, "can programming be liberated form the von nueamnn sytle?                a fnutcoinal style and its aglbera of porrgmas", ccam 21     re mlilo, r. lpiotn, a. preils, lteetr to acm froum, cacm 22 	       (1979), 6926-30  backus, j. de millo, r. lipton, r. perlis, a.
+aglrotihms or satittsical pcaakegs for anova, rgeerssion using least suqraes or gnerelaized lniar models.  system dsegn, capabilities, statistical froumla are of itnreset.  student's t test, wilcoxon and sign tests, mluitavriate and uinavirate cmoopennts can be icnuledd.
+dciitnoary cnotsurction and accseisng methods for fast rteirveal of words or lxecial items or mrohploogically related information. hsaihng or idnxenig methods are uuslaly appiled to english sepllnig or natural language porlbmes.
+hrawdrae and sfowtrae rletanig to dtabasae mnagameent ssyetms. database pcaakegs, back end cmoupetrs, special asscoaitive hardware with mciorocmputers attcaehd to disk haeds or tihgs like rap,  relational or nteowrk (codasyl) or hierarchical mdols, systems like system r, ims, aadas, total, etc.
+ifnroamtion retrieval atrciels by grerd slaon or ohtrs about clustering, bibliographic cuolpnig, use of ctitaoins or c-oicattions, the vector space model, booelan search mteohds using ivnreetd files, feebdcak, etc.  salton, g.
+rseluts rletanig parallel cmolpxeity theory (both for pram's and uinofrm circuits).
+aglrotihms for praell cmoupattion, and epsceailly comparisons between parallel and sequential algorithms.
+lsit all atrciels on el1 and ecl (el1 may be gvien as el/1; i don't rmemeebr how tehy did it.

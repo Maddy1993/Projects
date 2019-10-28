@@ -1,0 +1,17 @@
+abscissas
+weights
+romberg
+quadrature
+algorithm
+281
+cacm
+april
+1966
+welsch
+ca
+jb
+march
+23
+1978
+7:17
+pm

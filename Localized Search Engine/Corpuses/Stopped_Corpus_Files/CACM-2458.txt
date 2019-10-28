@@ -1,0 +1,14 @@
+localization
+roots
+polynomial
+algorithm
+cacm
+august
+1973
+williams
+ca
+jb
+january
+23
+1978
+10:26

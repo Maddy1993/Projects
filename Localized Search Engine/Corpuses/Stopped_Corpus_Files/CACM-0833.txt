@@ -1,0 +1,15 @@
+reduction
+symmetric
+bandmatrix
+triple
+diagonal
+form
+cacm
+june
+1963
+schwartz
+ca
+march
+14
+1978
+10:09

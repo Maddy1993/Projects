@@ -1,0 +1,48 @@
+Client-Server Model:
+-------------------
+
+The Stop-and-Wait and GO-BACK-N protocols depend on the window size of the sender and receiver.
+In Stop-and-Wait, the sender and receiver have a window size of 1
+and in GO-BACK-N, the sender window size can be specified by the user and receiver receives the packets based on the window size specified.
+
+Stop-and-Wait:
+-------
+
+Testing Sender:
+---------
+1. Change directory to Stop-and-Wait
+2. Change to sender
+2. Connection to the server: 
+        ./makeSender 1 <port> <host> <file_name>
+3. When the file has been sent, end-of-file indicator will be displayed and the connection will be closed.
+
+
+Testing Receiver:
+---------
+1. Change directory to Stop-and-Wait
+2. Change to receiver
+2. Connection to the server: 
+        ./makeReceiver 1 <port> <host> 
+3. When all the packets are successfully delivered, connection will be closed.
+
+
+GO-BACK-N:
+-------
+
+Testing Sender:
+---------
+1. Change directory to Stop-and-Wait
+2. Change to sender
+2. Connection to the server: 
+        ./makeSender N <port> <host> <file_name>
+3. When the file has been sent, end-of-file indicator will be displayed and the connection will be closed.
+
+
+Testing Receiver:
+---------
+1. Change directory to Stop-and-Wait
+2. Change to receiver
+2. Connection to the server: 
+        ./makeReceiver N <port> <host> 
+3. When all the packets are successfully delivered, connection will be closed.
+

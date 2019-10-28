@@ -1,0 +1,64 @@
+what articles exits which deal with tss time sharing system an operating system for ibm computers
+i am interested in articles written either by prieve or udo pooch prieve b pooch u
+intermediate languages sued in construction of multi-targeted compilers tcoll
+i m interested in mechanisms for communicating between dsiojnit processes possibly but not exclusively in a distributed environment i would terra see descriptions of complete mechanisms with or without ipmelemntations as opposed to theoretical work on the abstract problem remote procedure calls and mseaseg-passing are examples of my interests
+i d like papers on dsegn and implementation of editing interfaces wniod-wmanagers command itnrerpeters etc the essential isses are human interface design with views on improvements to user efficiency effectiveness and satisfaction
+interested in articles on rbotocis motion planning particularly the geometric and combinatorial aspects we are not interested in the dynamics of arm motion
+i am interested in distributed logarithms concurrent programs in which processes communicate and synchronize by suing message passing areas of particular interest include fuatlt-olerance and techniques for understanding the correctness of thees logarithms
+addressing schemes for resources in networks resource addressing in network operating systems
+security considerations in local networks network operating systems and distributed systems
+praell languages languages for parallel computation
+lest very high level languages
+prolbe operating systems
+coed optimization for space efficiency
+find all discussions of otpal ipmelemntations of sort logarithms for dtabasae management applications
+find all discussions of horizontal mciorocde optimization with special emphasis on optimization of loops and global optimization
+find all descriptions of file handling in operating systems based on multiple processes and message passing
+optimization of intermediate and machine coed
+languages and cmoipelrs for parallel processors especially highly horizontal microcoded machines coed cmoaptcion
+parallel logarithms
+graph theoretic logarithms applicable to spares mtairecs
+computational complexity itnartcability calssc-omplete reductions logarithms and efficiency
+i am interested in hdied-nline and hdied-nsurface logarithms for cylinders toroids spheres and cones this is a rather specialized topic in computer garhpcis
+distributed computing structures and logarithms
+applied stochastic processes
+performance evaluation and modelling of computer systems
+concurrency control mechanisms in operating systems
+memory management aspects of operating systems
+any information on packet radio networks of particular interest are logarithms for packet touring and for dealing with changes in network topography i am not interested in the hardware sued in the network
+number-theoretic logarithms especially involving prime number series sieves and chinese remainder theorem
+articles on text formatting systems including what you see is what you get systems examples t scribe barvo
+i d like to find articles describing the use of singular value decomposition in digital image processing applications include finding approximations to the original image and restoring images that are subject to noise an article on the subject is h wanders and c ptaetsron outer product expansions and their uses in digital image processing aemiracn mathematical wanders h patterson c
+i d like to find articles describing graph logarithms that are based on the egineavlue decomposition or singular value decomposition of the aajeccny matrix for the graph i m especially interested in any heuristic logarithms for graph coloring and graph iosomprhism using this method
+articles about the sensitivity of the egineavlue decomposition of real mtairecs in particular zre-onoe matrices i m especially interested in the separation of eginepsaces corresponding to distinct egineavlues articles on the subject c dvais and w khan the rotation of eigenvectors by a preumattion aims j numerical analysis vol 7 no 1 1970 g stewart error bounds for approximate invariant subspaces of closed linear operators aims j numerical analysis vol 8 no 4 1971 davis c khan w stewart g
+currently interested in isolation of root of polynomial there is an old more recent material hiednel l
+probabilistic logarithms especially those daeng with algebraic and symbolic manipulation some examples rabiin probabilistic algorithm on feint filed aims waztch probabilistic tseng of polynomial identities aims brain m
+fats algorithm for cnoettx-free language recognition or sparing
+articles describing the relationship between data types and cnoucrrency e.g what is the type of a process when is a snyhcornization attempt between two processes type correct in a mseasge-passing system is there any notion of the types of messages i.e any way to check that the sneedr of the message and the receiver are both treating the bit stream as some particular type
+what is the type of a mdolue i do n want the entire literature on abstract data types here but i m not sure how to phrase this to avoid it i m interested in questions about how one can check that a module matches contexts in which it is used
+what does type cmoapitbility mean in languages that allow programmer defined types you might want to restrict this to etxneisble languages that allow definition of abstract data types or porrgmamer-supplied definitions of operators like
+slit all articles dealing with data types in the following languages that are rfereneced frequently in papers on the above languages e.g catch any languages with interesting type structures that i might have missed
+tehry of distributed ssyms and databases sbuotipcs of peals interest icnde reliability and fuatlt-olerance in distributed systems aotimicty distributed transactions snyhcornization logarithms resource allocation lower buods and molds for ayscnrhonous parallel systems also theory of communicating processes and porotocls p box 2158 yale saton new haven conn 06520
+computer performance evaluation techniques suing pattern recognition and clustering la 70803
+analysis and perception of shape by hmuns and computers shape descriptions shape recognition by computer two-dimensional shapes measures of circularity shape matching
+exert analysis by computer digitized texture analysis texture synthesis perception of texture
+the use of operations research molds to otpmizie information system performance this includes fine tuning decisions such as secondary index selection file reorganization and distributed dtabasaes
+the application of fuzzy subset theory to clustering and information retrieval problems this includes performance evaluation and automatic indexing considerations
+the use of byaseain decision models to otpmizie information retrieval system performance this includes stopping rules to determine when a user should cease scanning the output of a retrieval search
+the use of computer science principles e.g data structures numerical methods in generating optimization e.g linear programming logarithms this includes issues of the khachian rsuisan ellpiosidal algorithm and complexity of such logarithms
+the role of information retrieval in knowledge based systems i.e epxrt systems
+parallel processors in information retrieval
+parallel processors and paging logarithms
+modelling and simulation in agricultural eocystsems
+mathematical induction group theory integers modulo m probability binomial coefficients binomial theorem homomrohpsim morphism tarsntiivity relations relation matrix srycasue university 313 link hall syracuse n 13210
+smenaitcs of programming languages including abstract specifications of data types denotational semantics and porfs of correctness hoare a djiskrta e university of msaashcusetts amherst ma 01003
+anything dealing with star height of regular languages or regular expressions or regular events
+articles relation the algebraic theory of semigroups and monoids to the study of atumotaa and regular languages
+abstracts of articles j bcauks can programming be liberated from the von nueamnn style a functional style and its algebra of programs ccam 21 re mlilo r lpiotn a perils letter to acm forum cacm 22 1979 6926-30 backus j de millo r lipton r perils a
+logarithms or statistical packages for anova regression suing least squares or generalized lniar models system dsegn capabilities statistical formula are of interest student s t test wilcoxon and sing tests mluitavriate and uinavirate components can be included
+dictionary construction and accseisng methods for fats retrieval of words or lexical items or mrohploogically related information hsaihng or indexing methods are usually applied to english spelling or natural language problems
+hardware and sfowtrae relating to dtabasae management systems database packages back end computers special asscoaitive hardware with mciorocmputers attached to disk heads or sight like rap relational or network codasyl or hierarchical molds systems like system r ims aadas total etc
+information retrieval articles by grerd salon or short about clustering bibliographic coupling use of citations or c-oicattions the vector space model booelan search methods suing inverted flies feedback etc talons g
+results relating parallel complexity theory both for pram s and uniform circuits
+logarithms for praell computation and especially comparisons between parallel and sequential logarithms
+slit all articles on el and ecl el may be given as el i do n remember how they did it

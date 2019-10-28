@@ -1,0 +1,61 @@
+System:
+  1. A distributed system which will accept multiple incoming requests from the File System and Peers
+  2. Has a hashed structure to store the file object values to its addresses
+  4. Every Peer will have one backup server.
+
+Server:
+  1. Designed to Accept JOIN and BACKUP connections from machines willing to be peers.
+  2. Store, Search and Read a file requests from the client.
+  3. Stores the mapped structure of File Object Values to Client addresses.
+  4. Disconnects the connection between the peer after establishing its location within the decentralized network
+  5. Elects the backup server for each peer based on the pre-defined quoram values.
+
+  Peer:
+    1. Peer is designed to have a finger table or hash table which stores the address of the clients associated with the file chunks(if they are split)
+    2. Knows its hashed object Values
+    3. Knows its backup server
+    4. Runs a synchronous light weight process to maintain updated information.
+    5. Backup peer has its current Information stored in a savepoint until updated.
+
+Client:
+Maintain cache for knowing the peer previously contacted, after cache expiration check with the master again for a peer
+
+Future work:
+Eventual consistency - currently the file system will be built for one client (consistency comes into the picture when multiple
+clients are trying to access same file)
+
+
+Electing a peer:
+  1. For every single peer, there should exist a backup peer.
+  2. When a request is made the peer, the master would check if a backup peer is needed for the
+  recently added peer. If so, it will make the current peer the backup to the recently added peer
+  3. If not, it would send a signal to requesting peer that it has been successfully registered with the master
+
+Breaking the file into packets:
+  Proposal:
+    1. Break the file into 1Kb buffers/packets.
+    2. Loop until the entire file is traversed and sent over the network
+
+Storing an file in the peer:
+  Proposal:
+    1. File is stored in the peer as chunks. Chunks of 1Kb.
+    2. A new folder is created with the file name and the chunk are given incrementing numbered names in an increasing order.
+    3. Though the peer is made to handle more complex instructions, it's beneficial in terms of efficiency and performance because
+    we could achieve concurrency in retrieving, forwarding and updating existing chunks.
+    4. Conucurrency can be achieved by spawing a goroutine to handle each file chunk operations.
+
+Updating an exisiting file: 
+  Proposal -> Differential Update (comparing the two bytes streams)
+    1. When a file chunk is received by the peer, it will check if the chunk already exisits,
+      if it exists, the peer will perform a differential of the exisiting chunk and the nw chunk.
+        if there is a difference, the new chunk will be overwritten in place of the exisiting chunk.
+        if there is no difference, no write operation is performed.
+
+      if it does not exist, the peer which keeps track of the file chunk numbers, writes the new chunk 
+      to the disk by incrementing the exisitng chunk number by 1 and giving it the same name.
+
+Syncing data with Backup Peer:
+  Proposal:
+    1. Multiple goroutines can be spawned to handle each chunk and read the chunk
+    2. By maintaining a critical section at the netowork connection, simultaneous and fast transfer of 
+    chunks is possible, as each goroutine would have already read the data in the chunk.

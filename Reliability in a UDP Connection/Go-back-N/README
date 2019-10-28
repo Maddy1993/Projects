@@ -1,0 +1,28 @@
+In the GO-Back_N protocol,
+sender and receiver maintain a window size, which is greater than or equal to 1. In doing so, the sender can send N packets to the receiver and decrease the overhead which is 
+involved in Stop-and-Wait protocol. When both the sender and receiver window sizes do not match, the connection between them is stopped.
+
+Example: 
+when sender and receiver window size = 3
+In this scenario, the sender sends 3 packets before listening to an ackowledgment from the receiver. If there is any packet drop, either from the sender or receiver,
+the sender sends the last acknowledged in-order packet to the receiver. At the same time, if there is any duplicate packet, receivers drops or avoids from adding the packet to
+the file. If there is any packet drop from sender, the receiver only sends one ack notifying that it requires the packet after the last ack'ed in -order packet.
+
+Testing:
+Command:
+	 make
+Executing sender:
+	./sender -p <port> -m <mode> -h <hostname> -f <filename>
+
+port is the value to which the sender should the send the data.
+mode is the window size
+hostname is the address of the sender
+filename is the name of the file to send
+
+Executing receiver:
+	./receiver -p <port> -h <hostname> -m <mode>
+
+port is the value of the port on the machine to which the receiver should bind
+hostname is the value of the address of the machine on which the receiver should be running
+mode is the window size of the receiver
+

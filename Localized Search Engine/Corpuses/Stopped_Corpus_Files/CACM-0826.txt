@@ -1,0 +1,16 @@
+remarks
+fortran
+subroutines
+time
+series
+analysis
+cacm
+june
+1963
+bennett
+ca
+jb
+march
+14
+1978
+10:00

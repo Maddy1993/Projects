@@ -1,0 +1,14 @@
+tridiagonal
+matrix
+algorithm
+122
+cacm
+march
+1964
+naur
+ca
+jb
+march
+10
+1978
+3:39

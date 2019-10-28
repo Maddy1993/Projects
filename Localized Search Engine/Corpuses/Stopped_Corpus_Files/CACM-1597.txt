@@ -1,0 +1,16 @@
+transpose
+vector
+stored
+array
+algorithm
+302
+cacm
+1967
+boothroyd
+ca
+jb
+march
+23
+1978
+4:00
+pm

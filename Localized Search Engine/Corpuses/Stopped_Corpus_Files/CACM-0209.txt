@@ -1,0 +1,16 @@
+symbol
+manipulation
+threaded
+lists
+cacm
+april
+1960
+perlis
+thornton
+ca
+jb
+march
+22
+1978
+1:56
+pm

@@ -1,0 +1,4 @@
+Code walk times are still being finalized.  When they are, this file will be
+updated with a list of time slots, and you will be able to update it to reflect
+your availability.  Further instructions will be provided when the list of time
+slots is released.

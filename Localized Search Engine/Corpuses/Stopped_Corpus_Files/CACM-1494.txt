@@ -1,0 +1,17 @@
+complete
+elliptic
+integral
+kind
+algorithm
+56
+cacm
+january
+1966
+larssen
+ca
+jb
+march
+23
+1978
+7:33
+pm

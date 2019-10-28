@@ -1,0 +1,27 @@
+In the Selective-Repeat Protocol,
+sender and receiver maintain a window size, which is greater than or equal to 1, but half of or less than half of transaction number. This is so because, when the transaction number wraps around, it appears as a  duplicate message, which raises lot of ambuiguity. Selective repeat can used in networks which have very low reliability. hence, the selective acknowledgments. In this project, the receiver sends selective negative acks to every packet which is corrupted or lost. Sender then trasmits the packet and continues with the rest of the transaction.
+
+Example: 
+when sender and receiver window size = 3
+In this scenario, the sender sends 3 packets before listening to an ackowledgment from the receiver. If there is any packet drop, either from the sender or receiver,
+the receiver buffers all the packets until its window is filled. Once it's window size is filled, the receiver sends selective nehative acks to sender, requesting re-transmission of
+lost packets. once, it receives the complete window, the receiver writes the data to file.
+
+Testing:
+Command:
+	 make
+Executing sender:
+	./sender -p <port> -m <mode> -h <hostname> -f <filename>
+
+port is the value to which the sender should the send the data.
+mode is the window size
+hostname is the address of the sender
+filename is the name of the file to send
+
+Executing receiver:
+	./receiver -p <port> -h <hostname> -m <mode>
+
+port is the value of the port on the machine to which the receiver should bind
+hostname is the value of the address of the machine on which the receiver should be running
+mode is the window size of the receiver
+

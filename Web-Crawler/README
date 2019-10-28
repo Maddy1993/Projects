@@ -1,0 +1,61 @@
+Web-Crawler:
+	A web-crawler is a program which is used to read (or scrape) an URL and analyze its content. Based on the analysis, several applications are possible, depending on the requirement.
+	Here, in this project, there are three goals for the web-crawler:
+		1. Breadth-First search:
+			The web-crawler is designed to crawl or visit the URLs in terms of breadth-first search algorithm. Each node crawled at a particular depth is considered as a node and
+			and all the URLs retrieved using the URL in the previous depth will be considered as it's neighbours. Hence, applying the standard BFS algorithms, 1000 URLs (as per the 
+			project requirement are crawled) and stored in bfs-urls.txt
+		
+		2. Depth-First Search:
+			The web-crawler is designed to visit the URLs using the depth first search algorithm, where the given URL is considered to be at depth-1 and URLs crawled using the
+			given URL are considered to be at depth-2 and are also considered as given URLs neighbours. 1000 URLs are crawled and stored in dfs-urls.txt
+	
+
+Project Structure:
+	This project is developed using python programming language.
+	* README
+	* BFS_Crawler.py
+	* DFS_Crawler.py
+	* Focused_Crawler.py
+	* bfs-urls.txt
+	* dfs_urls.txt
+	* focused-bfs-urls.txt
+	* TASK 1-G.docx
+	* TASK 2.docx
+
+Third-part Libraries:
+	1. Requests:
+		Requests is a Python HTTP library, released under the Apache2 License. The goal of the request is to make HTTP requests simpler and more human-friendly. The current version used in
+		this project is 2.18.4.
+	
+	2. BeautifulSoup:
+		Beautiful Soup is a Python library for pulling data out of HTML and XML files. HTML parser is used in this project to provide idiomatic ways of navigating, searching, 
+		and modifying the parse tree. It commonly saves programmers hours or days of work. Current version of beautiful soup used in this project is bs4.
+
+Project Execution:
+	1. Install Libraries:
+		Using 'pip':
+			[If you don't have pip installed in your machine, refer to http://docs.python-guide.org/en/latest/starting/installation/]
+
+			Beautiful Soup:
+				$ pip install beautifulsoup4
+			Requests:
+				$ pip install requests
+	
+	2. Change directory to the project directory, if not already present in the project directory
+	3. In the command prompt or shell, execute the following commands, based on requirement:
+		a. Executing BFS_Crawler.py
+			$ python BFS_Crawler.py
+
+		b. Executing DFS_Crawler.py
+			$ python DFS_Crawler.py
+
+		c. Executing Focused-BFS_Crawler.py
+			$ python Focused_Crawler.py
+	
+Depth Reporting:
+	1. BFS Search: Depth reached is 2 before 1000 URLs are crawled
+	2. DFS Search: Depth reached is 2 before 1000 URLs are crawled
+	3. Focused-BFS Search: Depth reached is 6 before 1000 URLs are crawled
+
+
